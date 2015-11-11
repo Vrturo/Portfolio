@@ -166,7 +166,7 @@
     visibility: visible;
     opacity: 1;
     -webkit-transform: scale(1);
-    transform: scale(1);    
+    transform: scale(1);
     -webkit-transition: -webkit-transform 0.4s, opacity 0.4s;
     transition: transform 0.4s, opacity 0.4s;
 }
@@ -189,7 +189,7 @@
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
-  -ms-transition: all 0.3s ease-in-out; 
+  -ms-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
 
@@ -203,4 +203,3 @@
     height: 280px;
 }
 
-}
