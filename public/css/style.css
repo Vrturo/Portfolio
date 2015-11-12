@@ -4078,18 +4078,25 @@ acronym {
 
 #topbar.darkbg .social-icons i:hover,
 #style6 .social-icons i:hover,
-.item figure,
-#footer-second.footer .social-icons i:hover,
 .progress-colorful,
 #testimonial .owl-controls .owl-nav [class*="owl-"]:hover,
 .section-colorful,
 .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span,
 .team-member .social-icons i:hover,
 .tooltip-inner,
-.social-icons i:hover,
 .mycolor {
-    color: #D8D8D8 ;
-    background: #D8D8D8 ;
+    color: black;
+    background: white;
+}
+
+.item figure{
+  color: #D8D8D8 ;
+  background: #D8D8D8;
+}
+
+#footer-second.footer .social-icons i:hover{
+  color: black ;
+    background: white;
 }
 
 .quote-post,
