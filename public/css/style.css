@@ -3416,7 +3416,7 @@ blockquote.mini {
     width: 100%;
 }
 .bgpatttern {
-    background: url(images/pattern.png) repeat center center;
+    background: #E5E5E5;
 }
 .nopadding {
     padding:0 !important;

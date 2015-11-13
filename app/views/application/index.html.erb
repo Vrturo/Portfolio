@@ -16,7 +16,7 @@
           </div><!-- end container -->
       </header><!-- end header -->
 
-      <section class="meta-wrapper max-height section-parallax" style="background-image: url(https://static.pexels.com/photos/425/apple-iphone-desk-office.jpg);" data-stellar-background-ratio="0.6" data-stellar-vertical-offset="0" alt="Vrturo.io">
+      <section class="meta-wrapper max-height section-parallax" style="background-image: url(imgs/apple-office.jpg);" data-stellar-background-ratio="0.6" data-stellar-vertical-offset="0" alt="Vrturo.io">
           <div id="page_header">
               <div class="container text-center">
                   <div id="large-header" class="large-header">
@@ -28,7 +28,7 @@
               </div>
           </div><!-- end page_header -->
       </section><!-- end section -->
-
+      <br><br>
       <!-- start builder -->
       <section id="about"class="full-image-section clearfix">
                 <div class="pull-left image-container col-lg-4 clearfix">
@@ -56,8 +56,9 @@
                 </div><!-- end container -->
             </div><!-- end row -->
         </section><!-- end section white -->
+        <br><br>
 
-        <section id="projects" class="page-white bgpatttern clearfix">
+        <section id="projects" syle="background: black"class="page-white bgpatttern clearfix">
           <div class="section-title">
               <h3>Recent Projects</h3>
               <h4 style="color: #03acdc">Click on a Project to see Github source</h4>
@@ -148,7 +149,7 @@
                       <img src="imgs/baceform.png" alt="" class="img-responsive">
                     <figcaption>
                         <h2 style="color: #03acdc">B.A.C.E.(Blood Alcohol Estimator)</h2>
-                        <p style="color: black;"><strong>B.A.C.E. uses Uber's API and lets users know an estimate of what their BAC(blood alcohol content) would be based on an algorithm based on the info they put in. If their BAC is too high it recommends they order an Uber ride home. </strong></p>
+                        <p style="color: black;"><strong>B.A.C.E. uses Uber's API and lets users know an estimate of what their BAC(blood alcohol content) would be based on an algorithm from the info they put in. If their BAC is too high it recommends they order an Uber ride home. </strong></p>
                         <a href="https://github.com/Vrturo/B.A.C.E.">View more</a>
                     </figcaption>
                 </figure>
@@ -240,7 +241,7 @@
   <!-- Portfolio -->
   <script src="js/jquery.isotope.min.js"></script>
 
-  <script>
+  <script type="text/javascript">
         (function ($) {
             var $container = $('.masonry_wrapper'),
                 colWidth = function () {
@@ -299,6 +300,7 @@
                         }
                     });
                 };
+
             isotope();
             $(window).smartresize(isotope);
         }(jQuery));
