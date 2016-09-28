@@ -12,5 +12,14 @@
 //
 //= require jquery.min
 //= require jquery_ujs
+//= require turbolinks
+//= require bootstrap.min
+//= require retina
+//= require text-rotate
+//= require wow.min
+//= require jquery.stellar
+//= require home-scripts
+//= require portfolio
+//= require isotope.min
 //= require_tree .
 
