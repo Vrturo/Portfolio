@@ -10,7 +10,7 @@
 // Read Sprockets README (https://github.com/rails/sprockets#sprockets-directives) for details
 // about supported directives.
 //
-//= require jquery.min
+//= require jquery
 //= require jquery_ujs
 //= require turbolinks
 //= require bootstrap.min
@@ -20,6 +20,5 @@
 //= require jquery.stellar
 //= require home-scripts
 //= require portfolio
-//= require isotope.min
+//= require jquery.isotope.min
 //= require_tree .
-
