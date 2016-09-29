@@ -10,7 +10,6 @@
  * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
  * file per style scope.
  *
- *= require_tree .
  *= require extralayers
  *= require settings
  *= require bootstrap.min
@@ -20,5 +19,5 @@
  *= require prettyPhoto
  *= require style
  *= require portfolio-style
- *= require_self
+ *= require_tree .
  */
