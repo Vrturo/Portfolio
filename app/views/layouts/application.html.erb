@@ -3,10 +3,20 @@
   <head>
     <title>Portfolio</title>
     <link rel="icon" href="<%= asset_path( 'blue-hat.png' ) %>" />
+    <%= csrf_meta_tags %>
+
+    <!-- SLIDER REVOLUTION 4.x CSS SETTINGS -->
+    <link rel="stylesheet" type="text/css" href="stylesheets/extralayers.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/settings.css" media="screen" />
 
     <!-- Core CSS -->
-    <%= stylesheet_link_tag 'application', media: 'all' %>
-    <%= csrf_meta_tags %>
+    <link href="stylesheets/bootstrap.min.css" rel="stylesheet">
+    <link href="stylesheets/animate.min.css" rel="stylesheet">
+    <link href="stylesheets/et-icons.css" rel="stylesheet">
+    <link href="stylesheets/owl-carousel.css" rel="stylesheet">
+    <link href="stylesheets/prettyPhoto.css" rel="stylesheet">
+    <link href="stylesheets/style.css" rel="stylesheet">
+    <link href="stylesheets/portfolio-style.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
