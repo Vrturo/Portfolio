@@ -10,14 +10,5 @@
  * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
  * file per style scope.
  *
- *= require extralayers
- *= require settings
- *= require bootstrap.min
- *= require animate.min
- *= require et-icons
- *= require owl-carousel
- *= require prettyPhoto
- *= require style
- *= require portfolio-style
  *= require_tree .
  */
