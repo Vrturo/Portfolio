@@ -7,6 +7,7 @@ Rails.application.routes.draw do
 
   get '/bitTorrentChallenge' => 'challenge#index'
 
+  get '/blog' => 'blog#index'
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
