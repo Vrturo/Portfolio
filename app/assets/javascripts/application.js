@@ -21,4 +21,3 @@
 //= require home-scripts
 //= require portfolio
 //= require jquery.isotope.min
-//= require_tree .
