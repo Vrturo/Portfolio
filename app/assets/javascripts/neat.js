@@ -463,3 +463,13 @@
     };
 
 })(jQuery);
+
+$('.items').neat({
+      speed: 200,
+      fluidPicMargin: 200,
+      fluidPicMinSize: 400,
+      forceScrolling: true,
+      horizontal: false,
+      hidePrevious: true,
+      hidePreviousWith3d: false
+});

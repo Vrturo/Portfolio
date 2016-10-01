@@ -11,4 +11,4 @@
 // about supported directives.
 //
 //= require blogJs
-//= require scroll
+//= require neat
