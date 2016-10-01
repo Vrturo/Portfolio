@@ -1,10 +1,10 @@
 html,body{height:100%;}
 
 /* Cursors styles */
-body{cursor:n-resize;}
-body.horizontal{cursor: w-resize;}
-body.horizontal.godown{cursor:e-resize;}
-body.godown{cursor:s-resize;}
+.sky{cursor:n-resize;}
+.sky.horizontal{cursor: w-resize;}
+.sky.horizontal.godown{cursor:e-resize;}
+.sky.godown{cursor:s-resize;}
 .neat-pic {
   display: none;
   vertical-align:middle;
@@ -21,7 +21,7 @@ iframe,embed,object,video,audio,input{cursor: default;}
   height:100%;
   position:relative;
 }
-.items article{
+.items .sky-item{
   display: table;
   table-layout: fixed;
   height:100%;
@@ -29,7 +29,7 @@ iframe,embed,object,video,audio,input{cursor: default;}
   position: relative;
 }
 
-.items article>div{
+.items .sky-item>div{
     position:relative;
     display:table-cell;
     height:100%;width:100%;
