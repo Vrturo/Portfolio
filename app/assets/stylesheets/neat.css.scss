@@ -5,7 +5,10 @@ body{cursor:n-resize;}
 body.horizontal{cursor: w-resize;}
 body.horizontal.godown{cursor:e-resize;}
 body.godown{cursor:s-resize;}
-.neat-pic {display: none;vertical-align:middle;background:}
+.neat-pic {
+  display: none;
+  vertical-align:middle;
+}
 .neat-pic.loaded{display: inline-block;}
 iframe,embed,object,video,audio,input{cursor: default;}
 

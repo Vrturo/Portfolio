@@ -46,7 +46,7 @@
             $items = $element.find(plugin.settings.itemClass);
 
             // Set global var
-            cfg.scroll = ($.browser.mozilla || $.browser.msie) ? $('html') : b;
+            cfg.scroll = b;
             cfg.scrollSpeed = plugin.settings.speed;
             cfg.scrollwheel = true;
             cfg.timer = null;
