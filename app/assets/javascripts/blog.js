@@ -11,4 +11,5 @@
 // about supported directives.
 //
 //= require blogJs
+//= require jquery.mousewheel.min
 //= require neat
