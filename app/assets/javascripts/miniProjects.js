@@ -14,5 +14,5 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require bootstrap.min
-//= require teletype.min
+//= require jquery.teletype.min
 //= require miniProjects-animate

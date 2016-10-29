@@ -13,12 +13,11 @@ img {
 
 .max-height{height:100vh;}
 
-.main-title {
+.main-title,
+.terminal {
     position: relative;
     background: clear;
     margin: 12px auto;
-    border-right: 2px solid rgba(255,255,255,.75);
-    font-size: 4em;
     text-align: center;
     white-space: nowrap;
     overflow: hidden;
@@ -27,15 +26,13 @@ img {
     font-family: "Courier";
 }
 
-/* Animation */
-.anim-typewriter{
-  animation: typewriter 3s steps(44) 1s 1 normal both,
-             blinkTextCursor 0ms steps(44) infinite normal;
+.main-title {
+    font-size: 4em;
 }
 
-@keyframes typewriter {
-  from{width: 0;}
-  to{width: 10.3em;}
+.terminal {
+    font-size: 2em;
+    margin-right: .6em;
 }
 
 .fheader {
