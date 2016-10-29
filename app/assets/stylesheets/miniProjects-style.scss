@@ -60,6 +60,10 @@ img {
     from{border-right-color: rgba(255,255,255,.75); }
     to{border-right-color: transparent;}
 }
+@keyframes blinkTextCursor{
+     0%   {top: 0px; background: red; width: 100px;}
+    100% {top: 200px; background: yellow; width: 300px;}
+}
 
 .mini-title {
     color: #fff !important;
