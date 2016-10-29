@@ -9,7 +9,8 @@ Rails.application.routes.draw do
 
   get '/blog' => 'blog#index'
 
-  get '/miniProjects' => 'miniProjects#index'
+  get '/miniProjects' => 'miniprojects#index'
+
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
