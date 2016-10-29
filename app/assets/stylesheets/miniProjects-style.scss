@@ -2,10 +2,6 @@ body{
       background-color: #212121;
 }
 
-#parallax-three.white-color  .stat-count, #parallax-three.white-color .milestone-details h4 {
-    color:#fff !important;
-}
-
 img {
     height: 57em;
     background-color: #444;
@@ -15,22 +11,7 @@ img {
 }
 .object-fit_contain { object-fit: contain }
 
-.max-height{
-    height:100vh;}
-
-.mixed,
-.masonry_wrapper {
-    margin: 0 !important
-}
-.message {
-    margin:20px auto;
-    position:absolute;
-    right:0;
-    left:0;
-    top:40%;
-    text-align:center;
-    z-index: 90;
-}
+.max-height{height:100vh;}
 
 .main-title {
     position: relative;
@@ -51,30 +32,10 @@ img {
   animation: typewriter 3s steps(44) 1s 1 normal both,
              blinkTextCursor 0ms steps(44) infinite normal;
 }
-@keyframes typewriter{
-  from{width: 0;}
-  to{width: 11em;}
-}
-@keyframes blinkTextCursor{
-    width: 50px;
-    from{border-right-color: rgba(255,255,255,.75); }
-    to{border-right-color: transparent;}
-}
-@keyframes blinkTextCursor{
-     0%   {top: 0px; background: red; width: 100px;}
-    100% {top: 200px; background: yellow; width: 300px;}
-}
 
-.mini-title {
-    color: #fff !important;
-    font-size: 24px;
-    font-weight: 300;
-    letter-spacing: 3px;
-    margin-top: 30px;
-    position: relative;
-}
-.mini-title span {
-    font-weight:bold;
+@keyframes typewriter {
+  from{width: 0;}
+  to{width: 10.3em;}
 }
 
 .fheader {
@@ -84,19 +45,6 @@ img {
     padding:40px 0;
     top:0;
     width:100%;
-}
-
-.fheader .p-menu span a {
-  font-weight: bold;
-  padding:20px 0 0 10px;
-  color:#fff;
-  text-transform: uppercase;
-  font-family: "Montserrat",sans-serif;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  -ms-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
 }
 
 
