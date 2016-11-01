@@ -7,10 +7,4 @@ $( function() {
           loop: 1,
           preserve: true
       })
-} );
-// $(function(){
-//         $(".anim-typewriter").typed({
-//             strings: ["HACK.HACK.HACK.HACK', Art's Front End Labz."],
-//             typeSpeed: 0
-//         });
-//     });
+});
