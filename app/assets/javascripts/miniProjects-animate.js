@@ -1,9 +1,16 @@
 $( function() {
       $( '.anim-typewriter' ).teletype( {
-        text: [ 'HACK.HACK.HACK.HACK', 'Arts Front End Labz.' ],
-        typeDelay: 0,
-        backDelay: 0,
-        loop: 1,
-        cursor: '▋'
-      } );
+          text: [ " HACK.HACK.HACK.HACK.^900~20Art's Front End Labz." ],
+          typeDelay: 0,
+          backDelay: 0,
+          cursor: '▋',
+          loop: 1,
+          preserve: true
+      })
 } );
+// $(function(){
+//         $(".anim-typewriter").typed({
+//             strings: ["HACK.HACK.HACK.HACK', Art's Front End Labz."],
+//             typeSpeed: 0
+//         });
+//     });
