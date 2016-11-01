@@ -1,9 +1,9 @@
 $( function() {
       $( '.anim-typewriter' ).teletype( {
-        text: [ 'My AMAZING list of CRAZY Projects', 'haha Na, Im just trying shit out' ],
+        text: [ 'HACK.HACK.HACK.HACK', 'Arts Front End Labz.' ],
         typeDelay: 0,
         backDelay: 0,
-        loop: 0,
+        loop: 1,
         cursor: '▋'
       } );
 } );
