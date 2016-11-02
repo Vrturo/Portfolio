@@ -21,6 +21,6 @@
 //= require gallery3d/main.min
 //= require gallery3d/jquery.easing.min
 //= require gallery3d/jquery.colorbox.min
-//= require jquery.mouseheel.min
+//= require jquery.mousewheel.min
 //= require gallery3d/modernizr
 //= require labz-animate
