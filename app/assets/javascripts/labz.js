@@ -16,4 +16,4 @@
 //= require bootstrap.min
 //= require jquery.teletype.min
 //= require jquery.pagepiling.min
-//= require miniProjects-animate
+//= require labz-animate
