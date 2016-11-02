@@ -2,14 +2,14 @@ body{
       background-color: #212121;
 }
 
-img {
+.object-fit_contain {
     height: 57em;
     background-color: #444;
     display: block;
     width: auto;
     margin: auto;
+    object-fit: contain;
 }
-.object-fit_contain { object-fit: contain }
 
 .max-height{height:100vh;}
 
