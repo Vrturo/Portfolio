@@ -16,4 +16,11 @@
 //= require bootstrap.min
 //= require jquery.teletype.min
 //= require jquery.pagepiling.min
+//= require gallery3d/helpers.min
+//= require gallery3d/jquery.gallery3d.min
+//= require gallery3d/main.min
+//= require gallery3d/jquery.easing.min
+//= require gallery3d/jquery.colorbox.min
+//= require jquery.mouseheel.min
+//= require gallery3d/modernizr
 //= require labz-animate
