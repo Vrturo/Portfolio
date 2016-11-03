@@ -221,8 +221,16 @@ footer .widget h3 {
 .tooltip.bottom .tooltip-arrow {
     border-bottom-color: white;
 }
-.tooltip.bottom {
-    border-radius: 4px;
+
+.tooltip-inner{
+    border-radius: 10px;
+    height: 2em;
+    font-size: 1.2em;
+    width: 100%;
+    text-shadow:     0 1px 0 hsl(174,5%,80%),
+                     0 2px 0 hsl(174,5%,75%),
+                     0 3px 0 hsl(174,5%,70%),
+                     0 4px 0 hsl(174,5%,66%)
 }
 
 
