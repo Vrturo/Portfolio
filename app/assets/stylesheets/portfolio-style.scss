@@ -6,7 +6,6 @@
 #landing {
     background-image: url(http://i.imgur.com/U1e709r.jpg);
 }
-
 .tweet-wrapper p {
     text-align: center;
     font-family: Source Sans Pro;
@@ -31,7 +30,6 @@
 .copytext {
     padding: 50px 0 0
 }
-
 .copytext i {
     color:#14d9c0;
 }
@@ -42,14 +40,13 @@
 #footer-second.dark-footer {
     background: #282828 !important;
 }
-
 .copytext h4 {
     padding:0;
     color:#fff;
 }
-.max-height{
-    height:100vh;}
-
+.max-height {
+    height:100vh;
+}
 .mixed,
 .masonry_wrapper {
     margin: 0 !important
@@ -84,8 +81,6 @@
 .mini-title span {
     font-weight:bold;
 }
-
-
 #overlay {
     position: fixed;
     z-index:9999;
@@ -196,32 +191,38 @@
 }
 
 @media (max-width: 700px) {
-.main-title {
-    font-size:24px;
-}
+    .main-title {
+        font-size:24px;
+    }
 
-.overlay ul {
-    width: 280px;
-    height: 280px;
-}
+    .overlay ul {
+        width: 280px;
+        height: 280px;
+    }
 
-.blog-container{
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-}
+    .blog-container{
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+    }
 
-#blog-page{
-    margin-right: 0px;
-    margin-left: 0px;
-}
-
-.ImageWrapper{
-    height: 400px;
-}
-
+    #blog-page{
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    .ImageWrapper{
+        height: 400px;
+    }
 }
 footer .widget h3 {
     color: #909090;
 }
+.tooltip.bottom .tooltip-arrow {
+    border-bottom-color: white;
+}
+.tooltip.bottom {
+    border-radius: 4px;
+}
+
+
