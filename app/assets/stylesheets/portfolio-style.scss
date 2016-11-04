@@ -207,23 +207,34 @@
     z-index: 90;
 }
 #projects{
-
     background-image:
         linear-gradient(
-          rgba(20, 0, 0, 0.5),
-          rgba(20, 0, 0, 0.5)
+          rgba(20, 0, 0, 0.2),
+          rgba(20, 0, 0, 0.2)
         ),
         url(http://intellerts.com/wp-content/uploads/2014/09/stock-footage-mixed-race-group-of-people-aerial-view-timelapse-hipster-office-small-business-start-up-company.jpg);
     padding: 4em;
+    height: 20em;
 }
-#projects h3 {
+.word-wrap {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 55%;
+    height: 45%;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+}
+
+#projects h3,
+#projects h4 {
+
     color: #03acdc;
 }
-#divider {
-    width: 500px;
-}
+
 #projects-title {
-    /*background:rgba(255,255,255, 0.3);*/
     padding: 10px;
 }
 #footer-second.footer .social-icons i {
