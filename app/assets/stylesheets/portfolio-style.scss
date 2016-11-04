@@ -1,3 +1,24 @@
+.fheader {
+    line-height:75px;
+    position:absolute;
+    z-index:99;
+    padding:40px 0;
+    top:0;
+    width:100%;
+}
+.fheader .p-menu span a {
+  font-weight: bold;
+  font-size:18px;
+  padding:20px 0 0 10px;
+  color:#fff;
+  text-transform: uppercase;
+  font-family: "Montserrat",sans-serif;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
 #parallax-three.white-color  .stat-count,
 #parallax-three.white-color .milestone-details h4 {
 
@@ -5,61 +26,6 @@
 }
 #landing {
     background-image: url(http://i.imgur.com/U1e709r.jpg);
-}
-.tweet-wrapper p {
-    text-align: center;
-    font-family: Source Sans Pro;
-    font-style: italic;
-    font-size: 18px;
-}
-.tweet-button {
-    border:1px solid #14a8ed !important;
-    color:#14a8ed !important;
-    width:55px;
-    vertical-align:-moz-middle-with-baseline;
-    height:55px;
-    margin:0 15px;
-    display:inline-block;
-   -webkit-border-radius: 6055pxpx;
-    -moz-border-radius: 55px;
-    border-radius: 55px;
-    font-size:18px;
-    line-height:53px;
-    background:transparent !important;
-}
-.copytext {
-    padding: 50px 0 0
-}
-.copytext i {
-    color:#14d9c0;
-}
-#footer-second.footer .social-icons i {
-    background: transparent;
-    border:1px solid #444;
-}
-#footer-second.dark-footer {
-    background: #282828 !important;
-}
-.copytext h4 {
-    padding:0;
-    color:#fff;
-}
-.max-height {
-    height:100vh;
-}
-.mixed,
-.masonry_wrapper {
-    margin: 0 !important
-}
-.message {
-    margin:20px auto;
-    position:absolute;
-    max-width: 800px;
-    right:0;
-    left:0;
-    top:40%;
-    text-align:center;
-    z-index: 90;
 }
 .main-title {
     border: 5px solid #fff;
@@ -167,29 +133,6 @@
     -webkit-transition: -webkit-transform 0.4s, opacity 0.4s;
     transition: transform 0.4s, opacity 0.4s;
 }
-
-.fheader {
-    line-height:75px;
-    position:absolute;
-    z-index:99;
-    padding:40px 0;
-    top:0;
-    width:100%;
-}
-.fheader .p-menu span a {
-  font-weight: bold;
-  font-size:18px;
-  padding:20px 0 0 10px;
-  color:#fff;
-  text-transform: uppercase;
-  font-family: "Montserrat",sans-serif;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  -ms-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-}
-
 @media (max-width: 700px) {
     .main-title {
         font-size:24px;
@@ -214,6 +157,81 @@
     .ImageWrapper{
         height: 400px;
     }
+}
+.tweet-wrapper p {
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-style: italic;
+    font-size: 18px;
+}
+.tweet-button {
+    border:1px solid #14a8ed !important;
+    color:#14a8ed !important;
+    width:55px;
+    vertical-align:-moz-middle-with-baseline;
+    height:55px;
+    margin:0 15px;
+    display:inline-block;
+   -webkit-border-radius: 6055pxpx;
+    -moz-border-radius: 55px;
+    border-radius: 55px;
+    font-size:18px;
+    line-height:53px;
+    background:transparent !important;
+}
+.copytext {
+    padding: 50px 0 0
+}
+.copytext i {
+    color:#14d9c0;
+}
+.copytext h4 {
+    padding:0;
+    color:#fff;
+}
+.max-height {
+    height:100vh;
+}
+.mixed,
+.masonry_wrapper {
+    margin: 0 !important
+}
+.message {
+    margin:20px auto;
+    position:absolute;
+    max-width: 800px;
+    right:0;
+    left:0;
+    top:40%;
+    text-align:center;
+    z-index: 90;
+}
+#projects{
+
+    background-image:
+        linear-gradient(
+          rgba(20, 0, 0, 0.5),
+          rgba(20, 0, 0, 0.5)
+        ),
+        url(http://intellerts.com/wp-content/uploads/2014/09/stock-footage-mixed-race-group-of-people-aerial-view-timelapse-hipster-office-small-business-start-up-company.jpg);
+    padding: 4em;
+}
+#projects h3 {
+    color: #03acdc;
+}
+#divider {
+    width: 500px;
+}
+#projects-title {
+    /*background:rgba(255,255,255, 0.3);*/
+    padding: 10px;
+}
+#footer-second.footer .social-icons i {
+    background: transparent;
+    border:1px solid #444;
+}
+#footer-second.dark-footer {
+    background: #282828 !important;
 }
 footer .widget h3 {
     color: #bdbdbd;
