@@ -158,6 +158,18 @@
         height: 400px;
     }
 }
+.blog-item .tooltip .tooltip-arrow {
+    border-top-color: blue;
+}
+
+.blog-item .tooltip-inner {
+    color: #03acdc;
+    text-shadow: none;
+}
+
+.blog-item .tooltip {
+    margin-top: -2.2em;
+}
 .tweet-wrapper p {
     text-align: center;
     font-family: Source Sans Pro;
@@ -265,17 +277,3 @@ footer .widget h3 {
                      0 3px 0 hsl(174,5%,70%),
                      0 4px 0 hsl(174,5%,66%)
 }
-
-.blog-item .tooltip .tooltip-arrow {
-    border-top-color: blue;
-}
-
-.blog-item .tooltip-inner {
-    color: #03acdc;
-    text-shadow: none;
-}
-
-.blog-item .tooltip {
-    margin-top: -2.2em;
-}
-
