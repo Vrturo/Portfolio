@@ -19,6 +19,6 @@
 //= require wow.min
 //= require jquery.stellar
 //= require home-scripts
-//= require typed
+//= require jquery.countTo
 //= require portfolio
 //= require jquery.isotope.min
